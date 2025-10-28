@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    background: #fff; /* Header solo blanco */
+    background: #fff; 
     width: 100%;
     position: fixed;
     top: 0px;
@@ -34,7 +34,7 @@ nav {
     padding: 0 40px;
     height: 50px;
     box-sizing: border-box;
-    margin-top: 80px; /* Este es el ajuste para bajar el nav */
+    margin-top: 80px; 
 }
 
 nav ul {
@@ -58,6 +58,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 main {
+    background: url('tile_background.png');
     padding: 130px 40px 40px;
 }
 
@@ -84,9 +85,9 @@ h2 {
 .producto {
     background: url('tile_background.png');
     border-radius: 48px;
-    border: 22px solid #232323;
-    width: 490px;
-    height: 260px;
+    border: 17px solid #232323;
+    width: 320px;
+    height: 400px;
     position: relative;
     overflow: hidden;
     box-shadow: 6px 6px 16px #23232333;
@@ -96,26 +97,11 @@ h2 {
     justify-content: center;
     margin: 0 auto;
     transition: transform 0.18s;
+    padding: 70px;
 }
 
 .producto:hover {
     transform: scale(1.03);
 }
 
-.producto img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-.rombo-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-    background: url('rombo.png') no-repeat center center;
-    background-size: contain;
-    pointer-events: none;
-}
+
